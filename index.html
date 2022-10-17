@@ -6,25 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator Project</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/bc1cc562be.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <input type="text" id="text-input" maxlength="60" />
-    <input type="file" id="meme-insert" accept=".jpeg,.jpg,.png,.webp" /><br />
-    <br />
-    <button id="fire">Click me</button>
-    <button id="water">Click me</button>
-    <button id="earth">Click me</button>
-    <div id="meme-image-container">
-      <img id="meme-image" alt="Imagem carregada" />
-      <div id="meme-text"></div>
-    </div>
-    <br />
-    <div>
-      <img src="imgs/meme1.png" alt="meme 1" id="meme-1" class="memeclass" />
-      <img src="imgs/meme2.png" alt="meme 2" id="meme-2" class="memeclass" />
-      <img src="imgs/meme3.png" alt="meme 3" id="meme-3" class="memeclass" />
-      <img src="imgs/meme4.png" alt="meme 4" id="meme-4" class="memeclass" />
-    </div>
+    <header> 
+      <h1>Meme Generator</h1>
+      <button id="darkMode"><i class="fa-solid fa-sun"></i></button>
+    </header>
+    <main>
+      <div id="imageSelector">
+        <input type="text" id="text-input" maxlength="60" placeholder="Insert a text to your meme" />
+        <input type="file" id="meme-insert" accept=".jpeg,.jpg,.png,.webp" /><br />
+      </div>
+
+      <div id="buttons">
+        <button id="fire">Change!</button>
+        <button id="water">Change!</button>
+        <button id="earth">Change!</button>
+      </div>
+      
+      <div id="meme-image-container">
+        <img id="meme-image" alt="Imagem carregada" />
+        <div id="meme-text"></div>
+      </div>
+
+      <div>
+        <img src="imgs/meme1.png" alt="meme 1" id="meme-1" class="memeclass" />
+        <img src="imgs/meme2.png" alt="meme 2" id="meme-2" class="memeclass" />
+        <img src="imgs/meme3.png" alt="meme 3" id="meme-3" class="memeclass" />
+        <img src="imgs/meme4.png" alt="meme 4" id="meme-4" class="memeclass" />
+      </div>
+  </main>
     <script src="./script.js"></script>
   </body>
 </html>
