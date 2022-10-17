@@ -108,3 +108,4 @@ window.onload = () => {
   createMiniMeme();
   verifyDarkMode();
 };
+//Done
