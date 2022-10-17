@@ -1,0 +1,25 @@
+{
+  "name": "projeto-06-meme-generator",
+  "version": "1.0.0",
+  "description": "[Link do Projeto](https://aysllanferreira.github.io/Projeto-06-Meme-Generator/) ![Project Meme Generator](./memeGen.png)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aysllanferreira/Projeto-06-Meme-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aysllanferreira/Projeto-06-Meme-Generator/issues"
+  },
+  "homepage": "https://github.com/aysllanferreira/Projeto-06-Meme-Generator#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

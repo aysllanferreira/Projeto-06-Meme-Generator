@@ -9,14 +9,14 @@ const body = document.querySelector('body');
 
 const darkMode = () => {
   const get = getComputedStyle(body).backgroundColor;
-  if(get === 'rgb(245, 245, 245)'){
+  if (get === 'rgb(245, 245, 245)') {
     body.style.backgroundColor = 'rgb(0,0,0)';
     body.style.color = 'white';
     getDarkBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
     getDarkBtn.style.backgroundColor = 'black';
     getDarkBtn.style.color = 'white';
     localStorage.setItem('darkMode', 'true');
-  }else{
+  } else {
     body.style.backgroundColor = 'rgb(245, 245, 245)';
     body.style.color = 'black';
     getDarkBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
@@ -33,7 +33,7 @@ const verifyDarkMode = () => {
     getDarkBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
     getDarkBtn.style.backgroundColor = 'black';
     getDarkBtn.style.color = 'white';
-  }else{
+  } else {
     body.style.backgroundColor = 'rgb(245, 245, 245)';
     body.style.color = 'black';
     getDarkBtn.style.backgroundColor = 'white';
@@ -108,4 +108,4 @@ window.onload = () => {
   createMiniMeme();
   verifyDarkMode();
 };
-//Done
+// Done
